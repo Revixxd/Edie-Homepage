@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    color: #333333;
+
+}
+
+header {
+    width: 90%;
+    max-width: 1500px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    width: 60%;
+    max-width: 800px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    
+}
+
+.header__nav--spanIcon{
+    display: none;
+
+    font-size: 32px;
+}
