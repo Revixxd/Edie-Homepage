@@ -20,11 +20,15 @@ h1{
 h2{
     font-weight: 500;
     font-size: 2rem;
+
+    margin: 1rem 0px;
 }
 
 h3{
     font-weight: 500;
     font-size: 1.75rem;
+
+    margin: 1rem 0px;
 }
 
 h4{
@@ -38,6 +42,8 @@ h5{
     font-size: 1rem;
 
     color: #4F4F4F;
+
+    margin: 1rem 0px;
 }
 
 h6{
@@ -139,7 +145,7 @@ article {
 
 .elementOne--divText,
 .elementOne--contactDiv {
-
+    
     margin-left: 15%;
 
     display: inline-block;
@@ -209,6 +215,9 @@ article {
 }
 
 .articleTwo--cardContainer {
+
+    margin: 1rem 0px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -471,6 +480,8 @@ article {
 .articleFive--bottomDiv h5{
     font-weight: 500;
     font-size: 1.5rem;
+
+    margin: 0px;
 }
 
 
