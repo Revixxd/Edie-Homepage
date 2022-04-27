@@ -9,10 +9,10 @@ Web page based on [devchallenges.io](https://devchallenges.io) challenge.
 
 ## Live Web Preview
 
-revixxd.github.io/checkout-page/
+https://revixxd.github.io/Homepage/
 
 ## Screenshots
 <b>Desktop:<b> <br>
-<img src="https://i.imgur.com/R6Y2MAJ.jpg" width="80%"> <br>
+<img src="" width="80%"> <br>
 <b>Smaller Screens/mobile/tablets:<b> <br>
-<img src="https://i.imgur.com/tWUr0nK.jpg" width="60%"> <br>
+<img src="" width="60%"> <br>
