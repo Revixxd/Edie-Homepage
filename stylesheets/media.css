@@ -25,5 +25,11 @@
         width: 95%;
     }
 
+    /* articleThree */
+    .articleThree--cardContainer{
+        grid-template-columns: 1fr;
+    }
+    
+
 
 }
