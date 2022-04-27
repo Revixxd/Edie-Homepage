@@ -5,7 +5,27 @@
     box-sizing: border-box;
 
     color: #333333;
+    font-family: 'Poppins', sans-serif;
 
+}
+
+/* main properties */
+
+h1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #2D9CDB;
 }
 
 /* header properties */
@@ -30,7 +50,13 @@ header nav {
     justify-content: space-between;
 }
 
-header nav a {}
+header nav a {
+    font-weight: 500;
+}
+
+header nav a:hover{
+    font-weight: 600;
+}
 
 .header__nav--spanIcon {
     display: none;
@@ -169,4 +195,42 @@ article {
 
 .articleThree h2 {
     margin-left: auto;
+}
+
+/* articleThree properties */
+
+.articleFour{
+    display: flex;
+}
+.articleFour--textDiv{
+
+}
+.articleFour--photosDiv{
+
+}
+
+/* articleFive */
+.articleFive{
+    
+}
+
+.articleFive--bottomDiv{
+    display: flex;
+    align-items: center;
+}
+
+.articleFive--bottomDiv img{
+    width: auto;
+    height: 80px;
+}
+
+/* footer */
+
+footer{
+    background-color: #100E1D;
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: space-between;
 }
