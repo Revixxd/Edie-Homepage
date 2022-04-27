@@ -22,10 +22,26 @@ h2{
     font-size: 2rem;
 }
 
+h3{
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
 h4{
     font-weight: 500;
     font-size: 0.875rem;
     color: #2D9CDB;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 1rem;
+
+    color: #4F4F4F;
+}
+
+input:focus{
+    outline: none;
 }
 
 /* header properties */
@@ -93,6 +109,48 @@ article {
     margin-left: 15%;
 
     display: inline-block;
+}
+
+.elementOne--contactDiv label{
+    color: #828282;
+}
+
+.elementOne__contactDiv--input{
+    border-radius: 12px;
+    display: inline-block;
+    background-color: #F2F2F2;
+}
+
+.elementOne__contactDiv--input input{
+
+    height: 50px;
+
+    padding-left: 15px;
+
+    border-radius: 12px;
+    border-style: none;
+
+    background-color: #F2F2F2;
+
+    font-weight: 500;
+
+}
+
+
+
+.elementOne__contactDiv--input button{
+    color: #F2F2F2;
+    background-color: #2D9CDB;
+
+    border-style: none;
+    border-radius: 12px;
+
+    
+    padding: 11px 20px;
+    margin-right: 5px;
+
+    font-weight: 400;
+
 }
 
 .elementOne--imageDiv {}
