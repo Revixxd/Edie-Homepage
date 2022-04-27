@@ -18,7 +18,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
     }
 
     .articleTwo__cardContainer--card{
@@ -28,8 +27,18 @@
     /* articleThree */
     .articleThree--cardContainer{
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .articleThree--textDiv a{
+        justify-content: start;
     }
     
+    /* footer */
+
+    .footerDiv{
+        flex-direction: column;
+        gap: 3rem;
+    }
 
 
 }

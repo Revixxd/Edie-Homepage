@@ -173,7 +173,12 @@
                 </div>
 
             </div>
-            <h2>See more</h2>
+
+            <div class="articleThree--textDiv">
+                <a href=""><h4>See more</h4>
+                <span class="material-symbols-outlined spanArrow">arrow_right_alt</span></a>
+            </div>
+            
 
         </article>
 
@@ -184,10 +189,17 @@
                 <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
 
             </div>
-            <div class="articleFour--photosDiv">
-                <img src="resources/person1.jpg">
-                <img src="resources/person2.jpg">
-                <img src="resources/person3.jpg">
+            <div class="articleFour--photosDiv ">
+                <div class="articleFour__photosDiv--imgDiv gridSpan--Row2">
+                    <img class="articleFour__photosDiv__imgDiv--image1" src="resources/person1.jpg">
+                </div>
+                <div class="articleFour__photosDiv--imgDiv">
+                    <img class="articleFour__photosDiv__imgDiv--image2" src="resources/person2.jpg">
+                </div>
+                <div class="articleFour__photosDiv--imgDiv">
+                    <img class="articleFour__photosDiv__imgDiv--image3" src="resources/person3.jpg">
+                </div>
+                
             </div>
         </article>
 
@@ -227,17 +239,26 @@
                 </div>
             </div>
     
-            <div class="footerDiv--inputDiv">
+            <div class="footerDiv__socialsDiv--contactDiv">
+
                 <label for="Email">Want us to contact you?</label><br>
-                <input></input>
+
+                <div class="elementOne__contactDiv--input">    
+                    <input placeholder="Email">
+                    <button class="blueButton">Join</button>
+                </div>
+                
+
             </div>
 
         </div>
         
-
-        <span> <a href="https://github.com/Revixxd" target="_blank" class="profileName"><b>Created by
-                    <u>Revixxd</u></b></a></span>-<span><a href="https://devchallenges.io"
-                target="_blank">devChallenges.io</a></span>
+        <div class="footer--socials">
+            <span> <a href="https://github.com/Revixxd" target="_blank" class="profileName">Created by
+                <u>Revixxd</u></a></span> - <span><a href="https://devchallenges.io"
+            target="_blank">devChallenges.io</a></span>
+        </div>
+        
 
     </footer>
 </body>
