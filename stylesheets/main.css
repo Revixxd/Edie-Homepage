@@ -44,6 +44,32 @@ input:focus{
     outline: none;
 }
 
+button{
+    cursor: pointer;
+}
+
+/* custom classes */
+
+    /* blue button */
+
+.blueButton{
+        color: #F2F2F2;
+        background-color: #2D9CDB;
+    
+        border-style: none;
+        border-radius: 12px;
+        
+        padding: 11px 20px;
+        
+        font-weight: 400;
+
+        transition: background-color 0.7s ;
+}
+
+.blueButton:hover{
+    background-color: #1fb2e7;
+}
+
 /* header properties */
 header {
     width: 90%;
@@ -116,12 +142,16 @@ article {
 }
 
 .elementOne__contactDiv--input{
+
     border-radius: 12px;
     display: inline-block;
     background-color: #F2F2F2;
 }
 
 .elementOne__contactDiv--input input{
+
+    max-width: 300px;
+    width: 59vw;
 
     height: 50px;
 
@@ -135,23 +165,11 @@ article {
     font-weight: 500;
 
 }
-
-
-
 .elementOne__contactDiv--input button{
-    color: #F2F2F2;
-    background-color: #2D9CDB;
-
-    border-style: none;
-    border-radius: 12px;
-
-    
-    padding: 11px 20px;
     margin-right: 5px;
-
-    font-weight: 400;
-
 }
+
+
 
 .elementOne--imageDiv {}
 
@@ -171,6 +189,13 @@ article {
 
 /* articleOne properties  */
 
+.articleTwo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1400px;
+}
+
 .articleTwo h3 {
     margin-left: 5%;
 }
@@ -182,23 +207,40 @@ article {
 }
 
 .articleTwo__cardContainer--card {
-    max-width: 400px;
-    width: 90%;
+    width: 30%;
+    max-width: 350px;
 
-    margin-top: 2rem;
+    padding: 30px;
 
-    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    
+    cursor: pointer;
+
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
 }
 
-.articleTwo__cardContainer__card--content {}
+
+
+.articleTwo__cardContainer__card--content{
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
 
 .articleTwo__cardContainer__card__content--spanDiv {
     display: inline-block;
     border-radius: 12px;
-    
+    width: 56px;
 }
 
 .backgroudColorBlue{
+    
     background-color: #2D9CDB;
 }
 
@@ -223,12 +265,37 @@ article {
     'opsz' 40
 }
 
+.articleTwo__cardContainer__card--content h5{
+    color: #333333;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 
+.articleTwo__cardContainer__card--content p{
+    max-width: 250px;
+    width: 90%;
+
+    color: #4F4F4F;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.articleTwo__cardContainer__card--content button{
+    width: 120px;
+}
 
 
 
 
 /* articleThree properties  */
+
+.articleThree{
+    width: 90%;
+    max-width: 1400px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .articleThree--cardContainer {
     display: grid;

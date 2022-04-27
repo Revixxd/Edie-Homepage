@@ -15,9 +15,14 @@
     /* articleTwo */
 
     .articleTwo--cardContainer{
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .articleTwo__cardContainer--card{
+        width: 95%;
     }
 
 
