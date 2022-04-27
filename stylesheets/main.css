@@ -40,7 +40,7 @@ header nav a {}
 
 /* main container properties */
 
-.container{
+.container {
     width: 90%;
     max-width: 1500px;
 
@@ -48,62 +48,56 @@ header nav a {}
     margin-right: auto;
 }
 
-article{
+article {
     margin-top: 8vh;
 }
 
 /* articleOne properties  */
 
-.articleOne{
+.articleOne {
     width: 100%;
     height: 100%;
 }
 
-.elementOne--divText{
+.elementOne--divText {}
 
-}
-
-.elementOne--divText, .elementOne--contactDiv{
+.elementOne--divText,
+.elementOne--contactDiv {
 
     margin-left: 15%;
 
     display: inline-block;
 }
 
-.elementOne--imageDiv{
-   
-}
-.elementOne--imageDiv img{
-    max-width: 100%;
-    max-height: 100%;
+.elementOne--imageDiv {}
+
+.elementOne--imageDiv img {
+    width: 100%;
+    height: 100%;
 
     border-radius: 18px;
 }
 
-.elementOne--contactDiv{
+.elementOne--contactDiv {}
 
-}
-
-.elementOne__contactDiv--textDiv{
+.elementOne__contactDiv--textDiv {
     min-width: 280px;
     max-width: 400px;
 }
 
 /* articleOne properties  */
 
-.articleTwo h3{
+.articleTwo h3 {
     margin-left: 5%;
 }
 
-.articleTwo--cardContainer{
+.articleTwo--cardContainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    
+    justify-content: space-between;
 }
 
-.articleTwo__cardContainer--card{
-    min-width: 340px;
+.articleTwo__cardContainer--card {
     max-width: 400px;
     width: 90%;
 
@@ -112,31 +106,67 @@ article{
     border-style: solid;
 }
 
+.articleTwo__cardContainer__card--content {}
+
+.articleTwo__cardContainer__card__content--spanDiv {
+    display: inline-block;
+    border-radius: 12px;
+    
+}
+
+.backgroudColorBlue{
+    background-color: #2D9CDB;
+}
+
+.backgroudColorGreen{
+    background-color: #27AE60;
+}
+
+.backgroudColorRed{
+    background-color: #EB5757;
+}
+
+.articleTwo__cardContainer__card__content--spanDiv span {
+    margin: 14px;
+
+    color: white;
+    font-size: 28px;
+
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' -25,
+    'opsz' 40
+}
+
+
+
+
+
+
 /* articleThree properties  */
 
-.articleThree--cardContainer{
+.articleThree--cardContainer {
     display: grid;
 
     grid-template-columns: 1fr 1fr;
 }
 
-.articleThree__cardContainer--card{
+.articleThree__cardContainer--card {}
 
-}
-
-.articleThree__cardContainer__imgDiv{
+.articleThree__cardContainer__imgDiv {
     display: inline-block;
     width: 100%;
     max-width: 400px;
 }
 
-.articleThree__cardContainer__imgDiv img{
+.articleThree__cardContainer__imgDiv img {
     max-width: 100%;
     max-height: 100%;
 
     border-radius: 12px;
 }
 
-.articleThree h2{
+.articleThree h2 {
     margin-left: auto;
 }

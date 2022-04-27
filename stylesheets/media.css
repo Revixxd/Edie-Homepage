@@ -1,4 +1,6 @@
 @media only screen and (max-width: 600px) {
+
+    /* navigation */
     header nav {
         width: auto;
     }
@@ -9,4 +11,14 @@
     .header__nav--spanIcon{
         display: block;
     }
+
+    /* articleTwo */
+
+    .articleTwo--cardContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
 }
