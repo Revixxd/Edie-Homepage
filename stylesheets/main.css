@@ -393,6 +393,7 @@ article {
     width: 90%;
     max-width: 1200px;
 
+    margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
 
@@ -418,6 +419,7 @@ article {
 
 
 .articleFour--photosDiv{
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
