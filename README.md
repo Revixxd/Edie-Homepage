@@ -9,7 +9,8 @@ Web page based on [devchallenges.io](https://devchallenges.io) challenge.
 
 ## Live Web Preview
 
-https://revixxd.github.io/Homepage/
+[https://revixxd.github.io/Homepage/](https://revixxd.github.io/Edie-Homepage/)
+
 
 ## Screenshots
 <b>Desktop:<b> <br>
